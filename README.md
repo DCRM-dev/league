@@ -52,14 +52,14 @@ argument is not present.  --> Means that the applications was run without argume
 The input file format is one match result per line. The format of the file is described in Problem Statement and Instructions.pdf
 file in this project.
 
-###Output
+### Output
 
 The output format is one team per line. The format of the output is described in Problem Statement and Instructions.pdf file in this project.
 
 The application prints in standard output the league rank, one line per team.
 
 
-##Solution
+## Solution
 This application has two approach to solve the problem.
 
 If you want to switch between solution1 and solution2 you can comment/uncomment the lines  37 and 38 in LeagueApplication class.
@@ -70,7 +70,7 @@ List<String> result = premierLeagueService.calculateRank(input);   // Solution 2
 
 If you change it, then follow the Build and Run steps described above.
 
-###Solution 1
+### Solution 1
 It is contained in solution1 package.
 LeagueService class contains the List<String> calculateRank(List<Sting> input) method.
 
@@ -99,7 +99,7 @@ Once the result map is sorted, a new output List<String> is generated with the r
 The output list is returned by the calculateRank method.
 
 
-###Solution 2
+### Solution 2
 It is contained in solution2 package.
 
 LeaguePremierService class contains the List<String> calculateRank(List<Sting> input) method.
@@ -131,7 +131,7 @@ Once the result list is sorted, a new output List<String> is generated with the 
 
 The output list is returned by the calculateRank method.
 
-###Junit
+### Junit
 LeagueServiceTest and PremierLeagueServiceTest contains junit test for each implementation.
 
 ### Junit from input/output files.
