@@ -23,7 +23,7 @@ Run next command to clean and build the application
 
 Run next command to run the application
 
-\build\libs\java -jar league-0.0.1-SNAPSHOT.jar "<PATH_FILE>\input.txt"
+java -jar \build\libs\league-0.0.1-SNAPSHOT.jar "<PATH_FILE>\input.txt"
 
 You can change the input text file argument according your requirements.
 
